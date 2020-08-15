@@ -185,7 +185,7 @@ footer i {
     font-size: .8em;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
 
     header {
         padding: 1.2em;
@@ -276,12 +276,35 @@ footer i {
 
 
     footer {
-        padding: 1em;
+        padding: 10em 1em 2em 1em;
+        font-size: .8em;
+    }
+
+    .logo-footer {
+        width: 180px;
     }
 
     .grid {
         grid-template-columns: 1fr;
+        justify-items: left;
+        padding: 1em 1.5em;
+        gap: 1em;
     }
 
+    h2 {
+        font-size: 1em;
+    }
+
+    .card-footer .button-content {
+        font-size: .6em;
+    }
+
+    .four {
+        margin: 0 auto;
+    }
+
+    .copy {
+        justify-content: center;
+    }
    
 }
