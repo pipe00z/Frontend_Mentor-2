@@ -185,7 +185,7 @@ footer i {
     font-size: .8em;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) {
 
     header {
         padding: 1.2em;
