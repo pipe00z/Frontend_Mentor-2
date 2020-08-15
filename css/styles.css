@@ -261,6 +261,7 @@ footer i {
         padding: 1.5em 1em;
         margin: 1.4em;
         text-align: center;
+        height: auto;
     }
     .cards p {
         margin: 1em 0;
@@ -276,7 +277,7 @@ footer i {
 
 
     footer {
-        padding: 10em 1em 2em 1em;
+        padding: 8em 1em 2em 1em;
         font-size: .8em;
     }
 
